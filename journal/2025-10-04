@@ -5,7 +5,7 @@
 - Snowflake = normalized, less redundancy, slower for queries.
 - Star = denormalized, more redundancy, faster for queries.
 - DE practice: No update, No delete
-- You can transform the data- just add another column, HOWEVER data is NOT meant to be UNDERSTOOD, it is MEANT to be EFFICIENT
+- You can transform the data- just add another column, HOWEVER "Data is NOT meant to be understood, it is MEANT to be efficient”
 
 ## 2) New vocabulary (define in your own words)
 - **term** — my definition
@@ -13,7 +13,7 @@
 - fact- fact table ((numeric, event)
 
 ## 3) Data Engineering mindset applied (what principles did I use?)
-- STEP UP!
+- STEP UP if no one does!
 
 ## 4) Decisions & assumptions (why, alternatives, trade-offs)
 - Decision: Use the sales and employee-related tables to determine quarterly revenue by employee.
@@ -23,7 +23,7 @@
 
 ## 5) Open questions (things I still don’t get)
 - In cleaning data, can we omit a column from the raw data
-- Do we need to master the creation  of vizualization
+- Do we need to master the creation  of vizualization? How to decide what vizualization is best to use , is it according to the business/analytics questions or according to type of data?
 - Why do we need dbt if we can also transform data in DBeaver?
 
 ## 6) Next actions (small, doable steps)
