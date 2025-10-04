@@ -42,6 +42,9 @@
 ## 7) Artifacts & links (code, queries, dashboards)
 - https://dataengineering.ph/
 - dbt docs denerate
+- dbt test (specific table)
+- dbt build (run + test)
+* schema.yml for ??/
 
 ---
 
