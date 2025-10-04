@@ -8,7 +8,8 @@
 - You can transform the data- just add another column, HOWEVER "Data is NOT meant to be understood, it is MEANT to be efficient”
 - Problem framming first --> solution
 - different business- different categorization 
-- trade-off happen when you do not have a control on what is happening or what happened in the business. 
+- trade-off happen when you do not have a control on what is happening or what happened in the business.
+- we do dimensional modelling(star schema & snow flakes) for a simple query
 
 ## 2) New vocabulary (define in your own words)
 - **term** — my definition
