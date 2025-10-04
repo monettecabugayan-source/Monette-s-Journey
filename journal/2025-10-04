@@ -35,8 +35,8 @@
 - If the DPA is violated, do we need to remove that specific column from our raw data?
 
 ## 6) Next actions (small, doable steps)
-- [ ] more practice on the processes: ingestion -> cleaning -> moving to mart.
-- [ ] undertand the meaning of scripts
+- [ ]clean: hamonize, enforce types, fix categories - structure
+- [ ]Mart: star schema, consistent grain, measures and dims- business
 - [ ] understand the meaning of each code
 
 ## 7) Artifacts & links (code, queries, dashboards)
