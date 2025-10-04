@@ -30,7 +30,8 @@
 ## 5) Open questions (things I still don’t get)
 - In cleaning data, can we omit a column from the raw data
 - Do we need to master the creation  of vizualization? How to decide what vizualization is best to use , is it according to the business/analytics questions or according to type of data?
-- What is trade-offa?
+- What are the trade-offs in data engineering?
+- Is the infrastruction of database can be interrupted?
 
 ## 6) Next actions (small, doable steps)
 - [ ] more practice on the processes: ingestion -> cleaning -> moving to mart.
