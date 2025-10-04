@@ -41,12 +41,18 @@
 
 ## 7) Artifacts & links (code, queries, dashboards)
 - https://dataengineering.ph/
+- dbt docs denerate
 
 ---
 
 ### Mini reflection (3–5 sentences)
 We use dlt because we want to create system; automation.
 SLQ is for testing adhoc.
+Manual SQL: tiny scope, quick, throwaway checks
+dlt; team scale, durability, tests, docs, lineage, cl
+
+combination: ad-hoc SQL for exploration. codify in dbt for production
+
 
 
 ### BONUS: What is a meme that best describes what you feel or your learning today?
