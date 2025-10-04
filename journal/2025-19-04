@@ -1,0 +1,47 @@
+
+# Journal — 9-20-2025 — DAY 2
+
+## 1) What I learned (bullets, not prose)
+- I learned how to encode the script to clean the raw data
+- I learned how to create a dimension  and fact table (descriptive)
+- I learned how to properly do join
+- Testing & Quality Checks – Implement unit tests for transformations.
+- Testing & Quality Checks- Add data validation (row counts, null checks, schema checks).
+
+## 2) New vocabulary (define in your own words)
+- **term** — my definition
+- dim - dimension table (descriptive)
+- fact- fact table ((numeric, event)
+
+## 3) Data Engineering mindset applied (what principles did I use?)
+- No man is an island!
+
+## 4) Decisions & assumptions (why, alternatives, trade-offs)
+- Decision: Use the sales and employee-related tables to determine quarterly revenue by employee.
+- Why: These tables contain transaction details (revenue) and the employee identifiers needed to answer the question.
+- Alternatives: Could have used only the invoices table without joining employees, but that would not attribute revenue to specific staff.
+- Trade-off: More joins mean slightly more complexity in the query, but this provides a more accurate view of revenue by employee.
+
+## 5) Open questions (things I still don’t get)
+- Is the script for all the steps (ingestion -> cleaning -> metabase) considered as parameterize scripts? or should it be parameterize script?
+- Do we need to learn how to code in order to ingest data or create a pipeline?
+- Why do we need dbt if we can also transform data in DBeaver?
+
+## 6) Next actions (small, doable steps)
+- [ ] more practice on the processes: ingestion -> cleaning -> moving to mart.
+- [ ] undertand the meaning of scripts
+- [ ] understand the meaning of each code
+
+## 7) Artifacts & links (code, queries, dashboards)
+- https://dataengineering.ph/
+
+---
+
+### Mini reflection (3–5 sentences)
+It’s been a rough set of sessions for me, as I’ve been struggling to understand the purpose and process of each step. However, every question I asked helped me build a better understanding. I’m still learning, but I can see my progress. I also realized that collaboration with my groupmates plays a big role in clarifying confusing parts. The exercises showed me that trial and error is part of the learning process. Moving forward, I feel more confident that I can handle the challenges with more patience and consistency.
+
+
+
+### BONUS: What is a meme that best describes what you feel or your learning today?
+
+![Alt text](../assets/meme.png "chaotic mind?")
