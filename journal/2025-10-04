@@ -1,12 +1,11 @@
 
-# Journal — 9-20-2025 — DAY 2
+# Journal — 10-04-2025 — DAY 3
 
 ## 1) What I learned (bullets, not prose)
-- I learned how to encode the script to clean the raw data
-- I learned how to create a dimension  and fact table (descriptive)
-- I learned how to properly do join
-- Testing & Quality Checks – Implement unit tests for transformations.
-- Testing & Quality Checks- Add data validation (row counts, null checks, schema checks).
+- Snowflake = normalized, less redundancy, slower for queries.
+- Star = denormalized, more redundancy, faster for queries.
+- DE practice: No update, No delete
+- You can transform the data- just add another column, HOWEVER data is NOT meant to be UNDERSTOOD, it is MEANT to be EFFICIENT
 
 ## 2) New vocabulary (define in your own words)
 - **term** — my definition
@@ -14,7 +13,7 @@
 - fact- fact table ((numeric, event)
 
 ## 3) Data Engineering mindset applied (what principles did I use?)
-- No man is an island!
+- STEP UP!
 
 ## 4) Decisions & assumptions (why, alternatives, trade-offs)
 - Decision: Use the sales and employee-related tables to determine quarterly revenue by employee.
@@ -23,8 +22,8 @@
 - Trade-off: More joins mean slightly more complexity in the query, but this provides a more accurate view of revenue by employee.
 
 ## 5) Open questions (things I still don’t get)
-- Is the script for all the steps (ingestion -> cleaning -> metabase) considered as parameterize scripts? or should it be parameterize script?
-- Do we need to learn how to code in order to ingest data or create a pipeline?
+- In cleaning data, can we omit a column from the raw data
+- Do we need to master the creation  of vizualization
 - Why do we need dbt if we can also transform data in DBeaver?
 
 ## 6) Next actions (small, doable steps)
