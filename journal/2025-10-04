@@ -37,7 +37,7 @@
 ## 6) Next actions (small, doable steps)
 - [ ]clean: hamonize, enforce types, fix categories - structure
 - [ ]Mart: star schema, consistent grain, measures and dims- business
-- [ ]Ensure data quality
+- [ ]Ensures data quality.
 
 ## 7) Artifacts & links (code, queries, dashboards)
 - https://dataengineering.ph/
@@ -45,8 +45,7 @@
 ---
 
 ### Mini reflection (3–5 sentences)
-It’s been a rough set of sessions for me, as I’ve been struggling to understand the purpose and process of each step. However, every question I asked helped me build a better understanding. I’m still learning, but I can see my progress. I also realized that collaboration with my groupmates plays a big role in clarifying confusing parts. The exercises showed me that trial and error is part of the learning process. Moving forward, I feel more confident that I can handle the challenges with more patience and consistency.
-
+We use dlt because we want to create system.
 
 
 ### BONUS: What is a meme that best describes what you feel or your learning today?
