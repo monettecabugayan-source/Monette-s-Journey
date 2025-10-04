@@ -37,7 +37,7 @@
 ## 6) Next actions (small, doable steps)
 - [ ]clean: hamonize, enforce types, fix categories - structure
 - [ ]Mart: star schema, consistent grain, measures and dims- business
-- [ ] understand the meaning of each code
+- [ ]Ensure data quality
 
 ## 7) Artifacts & links (code, queries, dashboards)
 - https://dataengineering.ph/
